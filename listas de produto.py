@@ -1,19 +1,19 @@
-produto=["arroz", "feijão", "macarrão", "leite", "pão"]
+produtos=["arroz", "feijão", "macarrão", "leite", "pão"]
 preços=[20.00 , 8.00 , 2.00 , 4.50 , 8.00]
 
-print("lista completa,", produto)
+print("lista completa,", produtos)
 
-print("primeiro produto,", produto[0])
+print("primeiro produto,", produtos[0])
 
-print("último produto,", produto[4])
+print("último produto,", produtos[4])
 
-print("total produtos na lista,", len(produto))
+print("total produtos na lista,", len(produtos))
 
 #Para exibir:
-print(f"O produto {produto[0]} custa R$ {preços[0]}")
+print(f"O produto {produtos[0]} custa R$ {preços[0]}")
 
 #Para remover o ultimo produto e o preço também:
-produto.remove(produto[-1])
+produtos.remove(produtos[-1])
 preços.remove(preços[-1])
 
 #Para somar o preço de todos os produtos:
