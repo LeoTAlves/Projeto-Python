@@ -10,7 +10,7 @@ def exibir_menu():
 def depositar(saldo):
     valor = float(input("Digite um valor para deposito: "))
     saldo = saldo + valor
-    print(f"Depósito de {valor}realizado com sucesso!")
+    print(f"Depósito de {valor} realizado com sucesso!")
     return saldo
 
 def sacar(saldo):
@@ -20,11 +20,11 @@ def sacar(saldo):
         return saldo
     
     saldo = saldo - saque
-    print(f"Saque de {saque}srealizado com sucesso!")
+    print(f"Saque de {saque} realizado com sucesso!")
     return saldo 
 
 def ver_saldo(saldo):
-    print(f"Saldo atual: R$ {saldo:.2f}")
+    print(f"Saldo atual: R$ {saldo}")
 
 saldo = 0.0
 while True:
