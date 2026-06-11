@@ -6,6 +6,13 @@ class Aluno:
     def exibir(self):
         print(f"Aluno: {self.nome} | Nota: {self.nota}")
 
+    def situacao(self):
+        if self.nota >= 6:
+            print("Aluno Aprovado!")
+        else:
+            print("Aluno Reprovado")
+    
+
 def cadastro_aluno():
     print("\nCADASTRANDO ALUNO...")
     nome = input("Digite o nome do aluno: ")
@@ -21,10 +28,13 @@ def exibir_alunos():
     for aluno in alunos:
         aluno.exibir()
 
+def exibir_situacao()
+        
+
+
 alunos = []
-
-
 
 cadastro_aluno()
 exibir_alunos()
+exibir_situacao()
 
